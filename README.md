@@ -10,6 +10,8 @@ an energy monitor and a Domoticz home control system.
 
 To reach the different web servers at home, an index page with links was created.
 
+Documentation for nginx reverse proxy: https://docs.nginx.com/nginx/admin-guide/web-server/reverse-proxy/
+
 ## Installation
 Start with installing Raspian using NOOBS as described in: https://www.raspberrypi.org/downloads/noobs/
 
