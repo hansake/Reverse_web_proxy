@@ -28,7 +28,7 @@ The script was created in the directory /usr/local/bin, copy the script to this 
 
 Then create a user and its password:
 * sudo addnginxuser
-* Enter new username: <user name>
-* Enter new password: <password>
+* Enter new username: user name
+* Enter new password: password
   
   
