@@ -16,4 +16,5 @@ Start with installing Raspian using NOOBS as described in: https://www.raspberry
 Then install nginx with the following steps:
 * sudo apt-get update
 * sudo apt-get install nginx-full
+
 Test the installation by opening the IP address of Raspberry Pi in a web browser.
