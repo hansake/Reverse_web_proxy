@@ -44,3 +44,13 @@ Then make a link to the reverseproxy configuration:
 Last restart nginx to use the new configuration:
 * sudo service nginx restart
 
+Create an index file containing links to the web servers.
+This file is named "index.html" and is copied to the directory /var/www/html.
+
+Finally port forwarding must be configured on the Internet router at home.
+The configuration is dependent on the type of router but port 443 shall be forwarded to
+the IP address of the Raspberry Pi running the reverse proxy software.
+
+Note that the router must be connected to Internet with a public IP address on the WAN side.
+To reach the gateway from Internet, open https://your_public_IP in a web browser.
+
