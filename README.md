@@ -31,4 +31,16 @@ Then create a user and its password:
 * Enter new username: user name
 * Enter new password: password
   
-  
+The file "reverseproxy" is used to configure the web proxy.
+Copy this file to /etc/nginx/sites-available
+The configuration file will be enabled by making a soft link en the sites-enabled directory.
+
+First remove the link to the default configuration:
+* sudo rm /etc/nginx/sites-enabled/default
+
+Then make a link to the reverseproxy configuration:
+* sudo ln -s /etc/nginx/sites-available/reverseproxy /etc/nginx/sites-enabled/
+
+Last restart nginx to use the new configuration:
+* sudo service nginx restart
+
