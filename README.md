@@ -40,10 +40,10 @@ The configuration file will be enabled by making a soft link en the sites-enable
 First remove the link to the default configuration:
 * sudo rm /etc/nginx/sites-enabled/default
 
-Then make a link to the reverseproxy configuration:
+Then make a link to the reverse proxy configuration:
 * sudo ln -s /etc/nginx/sites-available/reverseproxy /etc/nginx/sites-enabled/
 
-Last restart nginx to use the new configuration:
+Restart nginx to use the new configuration:
 * sudo service nginx restart
 
 Create an index file containing links to the web servers.
