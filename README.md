@@ -18,3 +18,17 @@ Then install nginx with the following steps:
 * sudo apt-get install nginx-full
 
 Test the installation by opening the IP address of Raspberry Pi in a web browser.
+
+To create passwords and certificates openssl is used. This program is by default installed in Rasbian.
+
+To create users and passwords it is handy to do this by using a script, see the file "addnginxuser".
+The script was created in the directory /usr/local/bin, copy the script to this directory and make it executable:
+* sudo cp addnginxuser /usr/local/bin
+* sudo chmod +x /usr/local/bin/addnginxuser
+
+Then create a user and its password:
+* sudo addnginxuser
+* Enter new username: <user name>
+* Enter new password: <password>
+  
+  
