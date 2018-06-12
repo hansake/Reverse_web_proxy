@@ -65,4 +65,5 @@ the IP address of the Raspberry Pi running the reverse proxy software.
 
 Note that the router must be connected to Internet with a public IP address on the WAN side.
 To reach the gateway from Internet, open https://your_public_IP in a web browser.
-
+You have to convince the web browser that the self signed certificate is to be trusted.
+This works a little bit different depending on the router you use.
