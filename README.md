@@ -67,3 +67,8 @@ Note that the router must be connected to Internet with a public IP address on t
 To reach the gateway from Internet, open https://your_public_IP in a web browser.
 You have to convince the web browser that the self signed certificate is to be trusted.
 This works a little bit different depending on the router you use.
+
+## Future development
+
+Some ideas in the wiki:
+https://github.com/hansake/Reverse_web_proxy/wiki
