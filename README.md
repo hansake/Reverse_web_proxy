@@ -33,6 +33,16 @@ Then create a user and its password:
 * Enter new username: user name
 * Enter new password: password
   
+Create a self signed certificate
+* sudo mkdir -p /etc/ssl/localcerts
+* sudo openssl req -new -x509 -days 3650 -nodes -out /etc/ssl/localcerts/webgateway-cert.pem -keyout /etc/ssl/localcerts/webgateway-key.pem
+
+The program will ask a number of questions, I put blanks in most places (by entering ".")
+except for "Country Name" and "Common Name".
+
+Set correct access rights of certificate files:
+* sudo chmod 600 /etc/ssl/localcerts/*
+
 The file "reverseproxy" is used to configure the web proxy.
 Copy this file to /etc/nginx/sites-available
 The configuration file will be enabled by making a soft link en the sites-enabled directory.
