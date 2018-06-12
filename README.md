@@ -44,7 +44,7 @@ Set correct access rights of certificate files:
 * sudo chmod 600 /etc/ssl/localcerts/*
 
 The file "reverseproxy" is used to configure the web proxy.
-Copy this file to /etc/nginx/sites-available
+Copy this file to the directory /etc/nginx/sites-available.
 The configuration file will be enabled by making a soft link en the sites-enabled directory.
 
 First remove the link to the default configuration:
