@@ -1,6 +1,8 @@
 # Reverse_web_proxy
 This reverse web proxy is used as a gateway between Internet and web servers at home to monitor smart home functions.
 
+This repository is now replaced by: [hansake/Reverse_web_proxy_LDAP: Reverse TLS web proxy with LDAP authentication](https://github.com/hansake/Reverse_web_proxy_LDAP)
+
 ## Design
 The reverse proxy is implemented on a Raspberry Pi 3 B+ running Raspbian and the nginx web server.
 Only TLS is supported from Internet and a username and password is mandatory to pass the gateway.
